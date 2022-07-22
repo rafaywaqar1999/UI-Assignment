@@ -11,9 +11,12 @@
   margin-top:  180px;
 } */
 .logoimg{
-height:70px; width:70px
+height:80px; width:80px
 }
-
+.trustedby{
+  display: flex;
+  align-items: center;
+}
 /* .card{
   height: 650px;
   margin:1rem;
@@ -39,13 +42,25 @@ height:70px; width:70px
 }
 
 .padding{
-  padding-bottom: 3rem;
+  padding-bottom: 1.5rem;
+  /* display: flex;
+  justify-content: center; */
+
+}
+.startup{
+ background-color: rgba(211, 211, 211, 0.13);
+}
+
+.testimonial{
+  background-color: rgba(211, 211, 211, 0.13);
 }
 .startuplanding,.design{
 width:75%;
 margin:0 auto;
-padding-top: 2rem;
+padding-top: 8rem;
+
 }
+
 .insta,.google,.linkedin,.facebook,.twitter{
 font-size: 1.5em;
 margin:1rem;
@@ -112,6 +127,8 @@ margin:1rem;
 .contactinfo{
   /* float: right; */
   background-image: url(images/contact-background.jpg);
+  background-color: rgba(211, 211, 211, 0.5);
+
 }
 .navimage{
   z-index: 30;
@@ -141,6 +158,14 @@ margin:1rem;
 
   margin: 200px;
 }
+
+
+
+/* .video{
+  width:1000px;
+  height: 1000px;
+
+} */
 
 /* .navbar{
   background-image: url(images/ex-header-background.jpg);
@@ -323,6 +348,9 @@ and (max-device-width: 960px){
     padding: 12px 28px;
     margin-top: 20px;
 
+  }
+  .trustedby{
+    display: none;
   }
   .leftarrow{
     height:20px;
